@@ -1,123 +1,143 @@
 [[HarfBuzz_ICU]]
 arch = "aarch64"
-git-tree-sha1 = "1f5f381ae6464cab65ea9e17d96affc0cb39b89f"
+git-tree-sha1 = "c6101d5f0bb50d9f33815dd98519b5a0d1c5f0e5"
 os = "macos"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "7a085bfecc1cd744d6a31c0b914e987b03fa36cdb86f5d41a5f5c853917cbdf6"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "9d6d565f89fac7abedf533194495ae10e299f0ccb840fb519527fa3a5cff0006"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.aarch64-apple-darwin.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "aarch64"
-git-tree-sha1 = "5f89ca5d4c97b8de8b7f5953361a15c3ba906564"
+git-tree-sha1 = "a3e8429549cf78715c798fc37b8e5eb9889d33ae"
 libc = "glibc"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "d47bfc2e7091614e9839e8c5fd609799c13baceb47f9af6c856b7b2ffdb7dca3"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "5caee1baa6a31b701e8469c3d6f448c09edf43d95ff35068a3d26a9273ca33ab"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.aarch64-linux-gnu.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "aarch64"
-git-tree-sha1 = "5ddeb9cff607c2acd4e830ba569880834774e4e2"
+git-tree-sha1 = "41a62c6f399c2518af766604d13314dbb16b783f"
 libc = "musl"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "b14ef37642261013071f26b583c7ea4ce2f8af872bd664f8ad15f9403f322c58"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.aarch64-linux-musl.tar.gz"
+    sha256 = "00a75402ea3504f488ca61c019dceb005b0192cf1f02cf80cff65f2136889491"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.aarch64-linux-musl.tar.gz"
+[[HarfBuzz_ICU]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fc0050a433c601051bd60b0c6a88b32806ac0a6c"
+libc = "glibc"
+os = "linux"
+
+    [[HarfBuzz_ICU.download]]
+    sha256 = "f91abd94d2c1ef4d1c03cb60190951c5f52cc8db8428cd4992cb964fe6d36e06"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.armv6l-linux-gnueabihf.tar.gz"
+[[HarfBuzz_ICU]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c6e2efba35300812a7b6f156cf7b9d15e8a33f14"
+libc = "musl"
+os = "linux"
+
+    [[HarfBuzz_ICU.download]]
+    sha256 = "539312db07cd3d7a074602e759f0ed3cbf78ab6fdc4f85ca94a5427cd54ec31d"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.armv6l-linux-musleabihf.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "3d611b84fc3c17f5d95d9e2238dbee3f38023253"
+git-tree-sha1 = "285c9fc0ee3832c39cc1acc0d67adff39603de61"
 libc = "glibc"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "f49c58ea0910f3f1bb656eed90e7b1f6a2ce3c3bf96a036d303dc7f7cdbbeaa3"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "bb4a7ff59c3a16924d6f793acdabc33e75100f806c6a10aa2065522c0562e16e"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.armv7l-linux-gnueabihf.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2f260172a47324d3ca6a268b523eaa9afac2636c"
+git-tree-sha1 = "22d049245daf2d4dfb1f943341b6b89263a62c88"
 libc = "musl"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "194beb1b54ee357404b02f66e18b0ad6600f64cd1ee8caa3f28c317f120f026d"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "5acb2f294b37b5565293eafab22874acfea5d68d6cc9c95c43b397f3e97bf244"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.armv7l-linux-musleabihf.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "i686"
-git-tree-sha1 = "a14d79377f73a606f335bc6ada631719afabe59f"
+git-tree-sha1 = "6760cde5940dd0106035e5cec0696ad08bb67c2f"
 libc = "glibc"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "d8ec12868993c687a077f66174b6acde97e56d17b4c4d14610542d5c98ad15e1"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.i686-linux-gnu.tar.gz"
+    sha256 = "16cf4868bf8c4b2bd32a5d732a7e4bcb9881a8c6b0c086c7e571f986f4782acd"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.i686-linux-gnu.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "i686"
-git-tree-sha1 = "63da06c251282e28c3fb36d5cf166832db22fbb0"
+git-tree-sha1 = "e39a354dd336ba91fefbf47187302c384ea5fdcb"
 libc = "musl"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "3594091b31459728bcad9f520ab878b1cdb0cc3da7c80360a8f9eb89504c6ef7"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.i686-linux-musl.tar.gz"
+    sha256 = "ae0cb7492a8bccea0a04427d25361cb640b9424be0c4a8d5c5cb6f4226451c65"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.i686-linux-musl.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "i686"
-git-tree-sha1 = "93ae052605fedf13ab7aa5a2b748200b1b28da28"
+git-tree-sha1 = "5f8f1df4e9e40776f1880f13a9820d61adf4e5fa"
 os = "windows"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "50a1e4ca8abb654baec4241e140eb50416fa88853a420e5c6a55ac559cc64e7c"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.i686-w64-mingw32.tar.gz"
+    sha256 = "d4d4adfa08c54f968039df5f32a8b49f1094c981f56a5ec74896d291d7346e64"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.i686-w64-mingw32.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "powerpc64le"
-git-tree-sha1 = "ca6fafca567672f51587174d6ef8fe1e73508225"
+git-tree-sha1 = "c882531795237ebebb1420962675934ec023a744"
 libc = "glibc"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "159fc84c284cb032cfd31af84d3c8a8b4a2092eebf4b0ad54accabf856c8a53d"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3d563e02ee179a4c5461f7fc7451c0b1ee37be73b343e5c9f3ff252c14515def"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.powerpc64le-linux-gnu.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "x86_64"
-git-tree-sha1 = "11f89f1947074dd14395913cf02eb775241cdd21"
+git-tree-sha1 = "fa0aaf47985dbcf32131c98661b61b32ee74ac5a"
 os = "macos"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "7eda249e748977a49b4a6e3eeecd908c49529d58e765433446ab384bde91981c"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "a74126e046b8a3aecf8f508e395b4eaa9f89da195477d2744a7f352474a16302"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.x86_64-apple-darwin.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "x86_64"
-git-tree-sha1 = "8ceb1038acda4651418c288562cd358d865e7859"
+git-tree-sha1 = "34b9d05047e98debd6ea904c3b0df7dd2dfe2f8a"
 libc = "glibc"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "382a4e3ef94f656a8f110e1567273c4d77bb4be8e865efceab0654bc8f52e4a4"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "ad0a8132dba11830556bcc3fab5cb305ed01f9b03d3b43e9c39d25e57e25e878"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.x86_64-linux-gnu.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "x86_64"
-git-tree-sha1 = "1a09bea8c5f1ba685246b6964870404e9db38cf4"
+git-tree-sha1 = "d56ec9adb405e5295dd15c6810cbd11d8dd85a15"
 libc = "musl"
 os = "linux"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "9078393a1befc78a70df45d877d13aa7ce189d5e561384d0cacda65fe4b2a27d"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.x86_64-linux-musl.tar.gz"
+    sha256 = "4d9e68b8f91cbd71133701f2fb700ebfef5a5b2a131f618b1be856db47212f22"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.x86_64-linux-musl.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "x86_64"
-git-tree-sha1 = "46a8a74693eb1e317d721feadd12d597298ced10"
+git-tree-sha1 = "65a31bd71cfab524d8e35263ff7884607020aed2"
 os = "freebsd"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "d2a4919a307921a62a8d00f90233c2bc27939e1499e99cf182098507a9580201"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "8b4c8fe4d754398f0a431d6dda291494d170736387b548c9b66adb0ebdae8c92"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.x86_64-unknown-freebsd.tar.gz"
 [[HarfBuzz_ICU]]
 arch = "x86_64"
-git-tree-sha1 = "dbc2ade068e7a7445fb3c5e2bdbd55c533c39597"
+git-tree-sha1 = "6c7c63ee9be6d6e51286efa77702c1392f328572"
 os = "windows"
 
     [[HarfBuzz_ICU.download]]
-    sha256 = "ffd7af2930f1ed800020d2dc5d23206837b9eb6bd863410a8a2dff3e7efff40f"
-    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v2.8.1+0/HarfBuzz_ICU.v2.8.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "893f704203a47ad3f01f06143f41afb5d0e453eff30609e66d52ca1d0675af71"
+    url = "https://github.com/JuliaBinaryWrappers/HarfBuzz_ICU_jll.jl/releases/download/HarfBuzz_ICU-v8.5.0+0/HarfBuzz_ICU.v8.5.0.x86_64-w64-mingw32.tar.gz"
